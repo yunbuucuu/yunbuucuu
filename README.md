@@ -58,21 +58,13 @@
 
 ## 关于我 · About Me
 
-你好，欢迎光临我的主页！
+> *“code is everything”* — 你好，欢迎光临我的主页！
 
-```yaml
-profile:
-  handle: yunbuucuu
-  motto: "code is everything"
-  identity: "研三在读学生"
-  research_focus:
-    - "元学习 (Meta-Learning)"
-  tech_stack:
-    - Python
-    - PyTorch
-  status: "正在寻找工作机会 (Open to Work)"
-  contact: "238471007@qq.com"
-```
+- 🎓 **当前身份**：研三在读学生
+- 🧠 **研究方向**：元学习（Meta-Learning）
+- 💻 **核心技术**：Python、PyTorch
+- 💼 **目前状态**：正在寻找工作机会，欢迎交流与内推
+- 📫 **联系邮箱**：[238471007@qq.com](mailto:238471007@qq.com)
 
 <div align="center">
   <picture>
