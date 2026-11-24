@@ -131,8 +131,8 @@
     <!-- ===== Left Side Typography & Zine Tags ===== -->
     <!-- Top-left raw chalk tag -->
     <g transform="translate(56, 46)">
+      <rect x="4" y="4" width="296" height="30" rx="2" fill="none" stroke="#FFFFFF" stroke-width="0.9" stroke-opacity="0.45"/>
       <rect x="0" y="0" width="296" height="30" rx="2" fill="#0A0A0A" stroke="#FFFFFF" stroke-width="1.6"/>
-      <rect x="4" y="4" width="296" height="30" rx="2" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.45"/>
       <circle cx="18" cy="15" r="4" fill="#FFFFFF"/>
       <text x="32" y="19.5" class="mono" fill="#FFFFFF">@yunbuucuu // OPEN TO WORK</text>
     </g>
