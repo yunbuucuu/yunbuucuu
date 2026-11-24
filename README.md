@@ -163,21 +163,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&bg_color=2e3440&title_color=88c0d0&text_color=d8dee9&icon_color=81a1c1&border_color=434c5e&border_radius=8">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&icon_color=81a1c1&border_color=d8dee9&border_radius=8">
-    <img height="175" alt="yunbuucuu 的 GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&icon_color=81a1c1&border_color=d8dee9&border_radius=8">
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yunbuucuu&layout=compact&locale=cn&bg_color=2e3440&title_color=88c0d0&text_color=d8dee9&border_color=434c5e&border_radius=8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yunbuucuu&layout=compact&locale=cn&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&border_color=d8dee9&border_radius=8">
-    <img height="175" alt="yunbuucuu 的常用语言" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yunbuucuu&layout=compact&locale=cn&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&border_color=d8dee9&border_radius=8">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=yunbuucuu&locale=zh_Hans&background=2E3440&border=434C5E&stroke=434C5E&ring=88C0D0&fire=8FBCBB&currStreakNum=ECEFF4&sideNums=ECEFF4&currStreakLabel=88C0D0&sideLabels=81A1C1&dates=D8DEE9&border_radius=8">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=yunbuucuu&locale=zh_Hans&background=ECEFF4&border=D8DEE9&stroke=D8DEE9&ring=5E81AC&fire=81A1C1&currStreakNum=2E3440&sideNums=2E3440&currStreakLabel=5E81AC&sideLabels=4C566A&dates=4C566A&border_radius=8">
-    <img alt="yunbuucuu 的连续贡献统计" src="https://streak-stats.demolab.com?user=yunbuucuu&locale=zh_Hans&background=ECEFF4&border=D8DEE9&stroke=D8DEE9&ring=5E81AC&fire=81A1C1&currStreakNum=2E3440&sideNums=2E3440&currStreakLabel=5E81AC&sideLabels=4C566A&dates=4C566A&border_radius=8">
+    <img alt="yunbuucuu 的 GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&icon_color=81a1c1&border_color=d8dee9&border_radius=8">
   </picture>
 </p>
 
@@ -189,7 +175,7 @@
   </picture>
 </div>
 
-## 贡献贪吃蛇 · Contribution Snake
+## GitHub贡献
 
 <div align="center">
   <picture>
