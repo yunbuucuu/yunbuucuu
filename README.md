@@ -48,14 +48,6 @@
   -->
 </p>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
-    <img alt="" src="./assets/divider-light.svg" width="100%">
-  </picture>
-</div>
-
 ## 关于我 · About Me
 
 > *“code is everything”* — 你好，欢迎光临我的主页！
@@ -65,14 +57,6 @@
 - 💻 **核心技术**：Python、PyTorch
 - 💼 **目前状态**：正在寻找工作机会，欢迎交流与内推
 - 📫 **联系邮箱**：[238471007@qq.com](mailto:238471007@qq.com)
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
-    <img alt="" src="./assets/divider-light.svg" width="100%">
-  </picture>
-</div>
 
 ## 精选项目 · Featured Projects
 
@@ -144,14 +128,6 @@
 </table>
 -->
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
-    <img alt="" src="./assets/divider-light.svg" width="100%">
-  </picture>
-</div>
-
 ## GitHub 数据概览 · Stats
 
 <div align="center">
@@ -159,14 +135,6 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&card_width=760&bg_color=2e3440&title_color=88c0d0&text_color=d8dee9&icon_color=81a1c1&border_color=434c5e&border_radius=8">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&card_width=760&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&icon_color=81a1c1&border_color=d8dee9&border_radius=8">
     <img alt="yunbuucuu 的 GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&card_width=760&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&icon_color=81a1c1&border_color=d8dee9&border_radius=8" width="100%">
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
-    <img alt="" src="./assets/divider-light.svg" width="100%">
   </picture>
 </div>
 
