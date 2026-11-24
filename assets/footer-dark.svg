@@ -1,36 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Footer - Nord Dark">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Footer - Monochrome Sketch Dark">
   <defs>
     <linearGradient id="fbg-dark" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2E3440"/>
-      <stop offset="50%" stop-color="#323946"/>
-      <stop offset="100%" stop-color="#2E3440"/>
-    </linearGradient>
-    <linearGradient id="fwave-dark" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#5E81AC" stop-opacity="0.1"/>
-      <stop offset="50%" stop-color="#88C0D0" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#8FBCBB" stop-opacity="0.1"/>
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="50%" stop-color="#1C1C1C"/>
+      <stop offset="100%" stop-color="#141414"/>
     </linearGradient>
     <clipPath id="fclip-dark">
-      <rect x="1" y="1" width="1198" height="94" rx="12"/>
+      <rect x="2" y="2" width="1196" height="92" rx="6"/>
     </clipPath>
   </defs>
   <style>
     .ftext {
       font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif;
       font-size: 14px;
-      letter-spacing: 1px;
+      font-weight: 500;
+      letter-spacing: 1.2px;
     }
     .fmono {
       font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
       font-size: 12px;
-      letter-spacing: 0.6px;
+      font-weight: 700;
+      letter-spacing: 1px;
     }
   </style>
   <g clip-path="url(#fclip-dark)">
     <rect width="1200" height="96" fill="url(#fbg-dark)"/>
-    <path d="M 0 38 C 280 8, 520 72, 820 32 C 980 12, 1100 44, 1200 28 L 1200 96 L 0 96 Z" fill="url(#fwave-dark)"/>
-    <text x="600" y="44" text-anchor="middle" class="ftext" fill="#E5E9F0">感谢来访 · 欢迎探讨元学习研究与工作机会</text>
-    <text x="600" y="68" text-anchor="middle" class="fmono" fill="#88C0D0">code is everything · @yunbuucuu</text>
+    <!-- Subtle chalk scribble accents -->
+    <g stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.5" fill="none" stroke-linecap="round">
+      <path d="M 32 24 L 84 18 M 36 32 L 72 28"/>
+      <path d="M 1116 74 L 1168 68 M 1126 82 L 1162 78"/>
+      <path d="M 108 68 L 122 54 M 108 54 L 122 68"/>
+      <path d="M 1078 24 L 1092 38 M 1092 24 L 1078 38"/>
+    </g>
+    <!-- Mini deadpan cat icon on left -->
+    <g transform="translate(52, 50) scale(0.45)">
+      <path d="M 8 56 L 14 2 L 32 24 L 48 24 L 66 2 L 72 56 Z" fill="#050505" stroke="#FFFFFF" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M 20 38 L 36 37 C 36 46, 20 46, 20 38 Z" fill="#FFFFFF"/>
+      <path d="M 44 37 L 60 38 C 60 46, 44 46, 44 37 Z" fill="#FFFFFF"/>
+    </g>
+    <text x="600" y="42" text-anchor="middle" class="ftext" fill="#F5F5F5">感谢来访 · 欢迎探讨元学习研究与工作机会</text>
+    <text x="600" y="68" text-anchor="middle" class="fmono" fill="#A3A3A3">code is everything // @yunbuucuu</text>
   </g>
-  <rect x="1" y="1" width="1198" height="94" rx="12" fill="none" stroke="#434C5E" stroke-width="1.2"/>
+  <rect x="2" y="2" width="1196" height="92" rx="6" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-opacity="0.75"/>
 </svg>

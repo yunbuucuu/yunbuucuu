@@ -1,167 +1,156 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="code is everything - yunbuucuu GitHub Profile Banner (Nord Light)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="code is everything - yunbuucuu Monochrome Sketch Banner (Light)">
   <defs>
-    <!-- Nord Snow Storm background gradient -->
+    <!-- Concrete wall gray gradient (matching the uploaded reference image!) -->
     <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ECEFF4"/>
-      <stop offset="55%" stop-color="#E8EDF4"/>
-      <stop offset="100%" stop-color="#E5E9F0"/>
+      <stop offset="0%" stop-color="#9A9A9A"/>
+      <stop offset="52%" stop-color="#8C8C8C"/>
+      <stop offset="100%" stop-color="#7E7E7E"/>
     </linearGradient>
 
-    <!-- Minimalist Nord Snow Storm coordinate grid -->
-    <pattern id="grid-light" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#5E81AC" stroke-width="0.7" stroke-opacity="0.16"/>
-    </pattern>
-
-    <radialGradient id="grid-fade-light" cx="50%" cy="48%" r="65%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
-      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-    <mask id="grid-mask-light">
-      <rect width="1200" height="300" fill="url(#grid-fade-light)"/>
-    </mask>
-
-    <!-- Frost & Glacial Aurora wave gradients (Light edition) -->
-    <linearGradient id="aurora-1-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#81A1C1" stop-opacity="0.06"/>
-      <stop offset="28%" stop-color="#88C0D0" stop-opacity="0.30"/>
-      <stop offset="55%" stop-color="#8FBCBB" stop-opacity="0.26"/>
-      <stop offset="82%" stop-color="#B48EAD" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#5E81AC" stop-opacity="0.05"/>
-    </linearGradient>
-
-    <linearGradient id="aurora-2-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#5E81AC" stop-opacity="0.05"/>
-      <stop offset="35%" stop-color="#81A1C1" stop-opacity="0.24"/>
-      <stop offset="68%" stop-color="#5E81AC" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#88C0D0" stop-opacity="0.06"/>
-    </linearGradient>
-
-    <linearGradient id="aurora-stroke-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#5E81AC" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#5E81AC" stop-opacity="0.75"/>
-      <stop offset="55%" stop-color="#81A1C1" stop-opacity="0.85"/>
-      <stop offset="80%" stop-color="#8FBCBB" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#5E81AC" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="title-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2E3440"/>
-      <stop offset="55%" stop-color="#3B4252"/>
-      <stop offset="100%" stop-color="#5E81AC"/>
-    </linearGradient>
-
-    <filter id="glow-light" x="-10%" y="-20%" width="120%" height="140%">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <!-- Textured concrete grain -->
+    <filter id="grain-light" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.88" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+      <feComponentTransfer in="grayNoise" result="softNoise">
+        <feFuncA type="linear" slope="0.18"/>
+      </feComponentTransfer>
+      <feBlend mode="overlay" in="softNoise" in2="SourceGraphic"/>
     </filter>
 
-    <clipPath id="card-clip-light">
-      <rect x="1" y="1" width="1198" height="298" rx="16"/>
+    <!-- Rough hand-drawn chalk edge -->
+    <filter id="sketch-edge-light" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7" result="turb"/>
+      <feDisplacementMap in="SourceGraphic" in2="turb" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <clipPath id="clip-light">
+      <rect x="2" y="2" width="1196" height="316" rx="8"/>
     </clipPath>
   </defs>
 
   <style>
-    .title {
-      font-family: 'Segoe UI', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
-      font-size: 54px;
-      font-weight: 700;
-      letter-spacing: 2.5px;
+    .hero-title {
+      font-family: 'Segoe UI', 'Arial Black', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 56px;
+      font-weight: 900;
+      letter-spacing: 1.5px;
     }
-    .subtitle {
+    .hero-sub {
       font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', 'Segoe UI', sans-serif;
       font-size: 18px;
-      font-weight: 400;
-      letter-spacing: 1.4px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
     }
     .mono {
       font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace;
       font-size: 13px;
-      font-weight: 500;
-      letter-spacing: 0.6px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
     }
-    @keyframes pulseDot {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.35; }
-    }
-    .dot-pulse {
-      animation: pulseDot 2.8s ease-in-out infinite;
+    .doodle-txt {
+      font-family: 'Comic Sans MS', 'Segoe Print', 'Chalkboard SE', Consolas, monospace;
+      font-weight: 700;
+      fill: #FFFFFF;
     }
   </style>
 
-  <g clip-path="url(#card-clip-light)">
-    <!-- Base surface -->
-    <rect width="1200" height="300" fill="url(#bg-light)"/>
+  <g clip-path="url(#clip-light)">
+    <!-- Textured concrete gray wall base -->
+    <rect width="1200" height="320" fill="url(#bg-light)" filter="url(#grain-light)"/>
 
-    <!-- Minimalist coordinate grid -->
-    <rect width="1200" height="300" fill="url(#grid-light)" mask="url(#grid-mask-light)"/>
+    <!-- Background white chalk graffiti scribbles (matching reference wall texture) -->
+    <g opacity="0.34" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <text x="34" y="54" class="doodle-txt" font-size="22" transform="rotate(-7 34 54)">0xFF</text>
+      <text x="118" y="38" class="doodle-txt" font-size="14" transform="rotate(5 118 38)">def meta():</text>
+      <text x="48" y="294" class="doodle-txt" font-size="18" transform="rotate(-4 48 294)">∇L(θ) → min</text>
+      <text x="275" y="48" class="doodle-txt" font-size="16" transform="rotate(6 275 48)">TORCH.NN</text>
+      <text x="420" y="292" class="doodle-txt" font-size="20" transform="rotate(-6 420 292)">/// CODE</text>
+      <text x="595" y="44" class="doodle-txt" font-size="17" transform="rotate(4 595 44)">{ META }</text>
+      <text x="640" y="296" class="doodle-txt" font-size="15" transform="rotate(-3 640 296)">import torch</text>
+      <text x="720" y="76" class="doodle-txt" font-size="21" transform="rotate(-9 720 76)">λ = 0.01</text>
+      <text x="1088" y="54" class="doodle-txt" font-size="20" transform="rotate(8 1088 54)">#PY</text>
+      <text x="1062" y="294" class="doodle-txt" font-size="18" transform="rotate(-5 1062 294)">EOF //</text>
 
-    <!-- Ambient frost mist -->
-    <ellipse cx="320" cy="70" rx="280" ry="110" fill="#88C0D0" opacity="0.16" filter="url(#glow-light)"/>
-    <ellipse cx="890" cy="235" rx="300" ry="115" fill="#81A1C1" opacity="0.14" filter="url(#glow-light)"/>
-
-    <!-- Aurora Wave Layer 1 -->
-    <path d="M -20 225 C 210 140, 420 275, 650 185 C 860 105, 1020 220, 1220 155 L 1220 310 L -20 310 Z"
-          fill="url(#aurora-1-light)"/>
-
-    <!-- Aurora Wave Layer 2 -->
-    <path d="M -20 250 C 260 180, 490 285, 760 205 C 950 148, 1070 245, 1220 205 L 1220 310 L -20 310 Z"
-          fill="url(#aurora-2-light)"/>
-
-    <!-- Crisp aurora ribbon curves -->
-    <path d="M -20 225 C 210 140, 420 275, 650 185 C 860 105, 1020 220, 1220 155"
-          fill="none" stroke="url(#aurora-stroke-light)" stroke-width="1.8"/>
-    <path d="M -20 250 C 260 180, 490 285, 760 205 C 950 148, 1070 245, 1220 205"
-          fill="none" stroke="#5E81AC" stroke-opacity="0.32" stroke-width="1.1"/>
-
-    <!-- Geometric Nordic corner brackets -->
-    <g stroke="#5E81AC" stroke-opacity="0.45" stroke-width="1.4" fill="none">
-      <path d="M 32 50 L 32 32 L 50 32"/>
-      <path d="M 1150 32 L 1168 32 L 1168 50"/>
-      <path d="M 32 250 L 32 268 L 50 268"/>
-      <path d="M 1150 268 L 1168 268 L 1168 250"/>
+      <path d="M 24 110 L 66 94 M 30 122 L 72 106 M 38 134 L 62 124" stroke-width="2.2"/>
+      <path d="M 215 270 L 258 264 L 242 284 L 288 274" stroke-width="2"/>
+      <path d="M 520 26 L 545 48 M 546 28 L 518 46" stroke-width="2.4"/>
+      <circle cx="718" cy="248" r="22" stroke-width="1.8" stroke-dasharray="14 4 8 3"/>
+      <path d="M 708 240 L 728 256 M 727 240 L 709 257" stroke-width="2"/>
+      <path d="M 1110 112 L 1168 96 M 1122 126 L 1176 112 M 1136 142 L 1166 134" stroke-width="2.4"/>
+      <path d="M 1098 188 L 1130 220 M 1132 186 L 1096 218 M 1114 176 L 1114 228" stroke-width="2.2"/>
+      <path d="M 18 220 Q 52 198 84 226 T 142 214" stroke-width="1.8"/>
+      <path d="M 358 34 Q 382 18 402 42" stroke-width="1.8"/>
+      <path d="M 762 126 L 796 112 L 784 134 L 814 124" stroke-width="1.8"/>
+      <path d="M 605 256 L 622 246 L 614 266 L 634 256 L 626 274" stroke-width="1.8"/>
     </g>
 
-    <!-- Subtle coordinate crosshairs -->
-    <g stroke="#5E81AC" stroke-opacity="0.35" stroke-width="1">
-      <line x1="156" y1="80" x2="164" y2="80"/>
-      <line x1="160" y1="76" x2="160" y2="84"/>
-      <line x1="1036" y1="80" x2="1044" y2="80"/>
-      <line x1="1040" y1="76" x2="1040" y2="84"/>
+    <!-- ===== Deadpan Sketch Cat Silhouette (Right Side, Matching Reference Image) ===== -->
+    <g transform="translate(768, 22)">
+      <!-- Energetic messy white chalk outer scratch strokes -->
+      <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 92 298 L 104 248 L 62 222 C 34 196, 30 142, 46 86 L 64 16 L 116 96 L 154 96 L 204 18 L 222 88 C 238 144, 232 198, 204 224 L 166 248 L 180 298"
+              stroke-width="4.6" opacity="0.98" filter="url(#sketch-edge-light)"/>
+        <path d="M 86 298 L 99 245 L 55 216 C 28 188, 25 138, 41 80 L 60 8 L 112 90 L 159 90 L 209 10 L 228 82 C 244 140, 238 194, 209 220 L 172 245 L 186 298"
+              stroke-width="2.4" opacity="0.9"/>
+        <path d="M 56 26 L 66 2 L 82 36 M 196 34 L 211 4 L 220 34" stroke-width="2.2" opacity="0.92"/>
+        <path d="M 38 118 L 28 148 M 34 140 L 26 172 M 234 114 L 244 146 M 238 142 L 246 174" stroke-width="2" opacity="0.86"/>
+        <path d="M 106 88 L 164 86 M 110 95 L 158 93" stroke-width="2.4" opacity="0.95"/>
+        <!-- Sketchy left whiskers -->
+        <path d="M 52 184 L -10 174 M 50 190 L -18 184 M 54 198 L -8 196 M 56 205 L -14 212 M 62 212 L 0 222" stroke-width="2.6" opacity="0.96"/>
+        <!-- Sketchy right whiskers -->
+        <path d="M 218 184 L 280 174 M 220 190 L 288 184 M 216 198 L 278 196 M 214 205 L 284 212 M 208 212 L 270 222" stroke-width="2.6" opacity="0.96"/>
+        <!-- Shoulder scratch lines -->
+        <path d="M 96 248 L 80 298 M 106 254 L 94 298 M 164 252 L 176 298 M 174 246 L 190 298" stroke-width="2" opacity="0.9"/>
+      </g>
+
+      <!-- Solid Pitch-Black Cat Body & Head Silhouette -->
+      <path d="M 94 300 L 106 246 L 64 222 C 36 196, 32 142, 48 88 L 66 22 L 116 98 L 154 98 L 202 24 L 220 90 C 236 144, 230 198, 202 224 L 164 246 L 178 300 Z"
+            fill="#050505"/>
+
+      <!-- Iconic Half-Lidded Deadpan White Eyes -->
+      <path d="M 74 156 L 122 153 C 124 176, 114 186, 98 186 C 82 186, 73 176, 74 156 Z" fill="#FFFFFF"/>
+      <path d="M 105 154 L 115 153.5 L 115 170 C 115 174, 112 177, 109.5 177 C 107 177, 105 174, 105 170 Z" fill="#050505"/>
+
+      <path d="M 148 153 L 196 151 C 198 174, 188 184, 172 184 C 156 184, 147 174, 148 153 Z" fill="#FFFFFF"/>
+      <path d="M 178 152 L 188 151.5 L 188 168 C 188 172, 185 175, 182.5 175 C 180 175, 178 172, 178 168 Z" fill="#050505"/>
+
+      <!-- Tiny minimalist white nose -->
+      <ellipse cx="136" cy="187" rx="5.5" ry="2.6" fill="#FFFFFF"/>
     </g>
 
-    <!-- Nord palette swatch dots -->
-    <g transform="translate(1062, 42)">
-      <circle cx="0" cy="0" r="3.5" fill="#8FBCBB"/>
-      <circle cx="14" cy="0" r="3.5" fill="#88C0D0"/>
-      <circle cx="28" cy="0" r="3.5" fill="#81A1C1"/>
-      <circle cx="42" cy="0" r="3.5" fill="#5E81AC"/>
-      <circle cx="56" cy="0" r="3.5" fill="#B48EAD"/>
+    <!-- ===== Left Side Typography & Zine Tags ===== -->
+    <!-- Top-left black ink sticker tag -->
+    <g transform="translate(56, 46)">
+      <rect x="4" y="4" width="296" height="30" rx="2" fill="#FFFFFF" opacity="0.85"/>
+      <rect x="0" y="0" width="296" height="30" rx="2" fill="#0B0B0B" stroke="#FFFFFF" stroke-width="1.5"/>
+      <circle cx="18" cy="15" r="4" fill="#FFFFFF"/>
+      <text x="32" y="19.5" class="mono" fill="#FFFFFF">@yunbuucuu // OPEN TO WORK</text>
     </g>
 
-    <!-- Top-left handle tag -->
-    <text x="64" y="47" class="mono" fill="#5E81AC" opacity="0.9">@yunbuucuu // NORD</text>
+    <!-- Hero Title: pitch-black ink with raw white chalk shadow -->
+    <text x="60" y="166" class="hero-title" fill="#FFFFFF" opacity="0.9">code is everything</text>
+    <text x="56" y="162" class="hero-title" fill="#080808">code is everything</text>
 
-    <!-- Center Status Pill -->
-    <g transform="translate(454, 62)">
-      <rect x="0" y="0" width="292" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.78" stroke="#CBD5E1" stroke-width="1"/>
-      <circle cx="22" cy="14" r="4" fill="#7D9B6A" class="dot-pulse"/>
-      <text x="36" y="18.5" class="mono" fill="#3B4252">Meta-Learning · Open to Work</text>
+    <!-- Sketchy double underline under title -->
+    <path d="M 56 184 L 586 180" stroke="#080808" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 62 190 L 548 188" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.95"/>
+
+    <!-- Chinese Subtitle inside crisp readability strip -->
+    <rect x="54" y="206" width="562" height="36" rx="2" fill="#0A0A0A" fill-opacity="0.82"/>
+    <text x="68" y="230" class="hero-sub" fill="#FFFFFF">研三学生 · 元学习（Meta-Learning）方向 · 正在寻找工作机会</text>
+
+    <!-- Bottom-left minimalist monochrome metadata strip -->
+    <g transform="translate(56, 258)">
+      <rect x="0" y="0" width="76" height="22" rx="2" fill="#0A0A0A"/>
+      <text x="38" y="15" text-anchor="middle" class="mono" fill="#FFFFFF" font-size="11">PYTHON</text>
+      <rect x="86" y="0" width="84" height="22" rx="2" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.4"/>
+      <text x="128" y="15" text-anchor="middle" class="mono" fill="#0A0A0A" font-size="11">PYTORCH</text>
+      <rect x="180" y="0" width="132" height="22" rx="2" fill="#0A0A0A" fill-opacity="0.16" stroke="#0A0A0A" stroke-width="1.2" stroke-dasharray="6 3"/>
+      <text x="246" y="15" text-anchor="middle" class="mono" fill="#0A0A0A" font-size="11">META-LEARNING</text>
     </g>
-
-    <!-- Main Hero Title -->
-    <text x="600" y="156" text-anchor="middle" class="title" fill="url(#title-grad-light)">code is everything</text>
-
-    <!-- Subtle accent bar under title -->
-    <rect x="540" y="176" width="120" height="2.5" rx="1.25" fill="url(#aurora-stroke-light)"/>
-
-    <!-- Chinese Subtitle -->
-    <text x="600" y="216" text-anchor="middle" class="subtitle" fill="#434C5E">研三学生 · 元学习（Meta-Learning）方向 · 正在寻找工作机会</text>
   </g>
 
-  <!-- Subtle outer frame -->
-  <rect x="1" y="1" width="1198" height="298" rx="16" fill="none" stroke="#D8DEE9" stroke-width="1.5"/>
+  <!-- Double ink & chalk outer frame -->
+  <rect x="2" y="2" width="1196" height="316" rx="8" fill="none" stroke="#0A0A0A" stroke-width="2.4"/>
+  <rect x="7" y="7" width="1186" height="306" rx="5" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-opacity="0.7" stroke-dasharray="18 6 40 8"/>
 </svg>

@@ -1,4 +1,4 @@
-name: Generate Nord Contribution Snake
+name: Generate Monochrome Contribution Snake
 
 on:
   schedule:
@@ -18,13 +18,13 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate Nord Dark & Light Snake SVGs
+      - name: Generate Monochrome Dark & Light Snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#88c0d0&color_dots=#2e3440,#3b4252,#4c566a,#5e81ac,#88c0d0
-            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#5e81ac&color_dots=#eceff4,#d8dee9,#81a1c1,#5e81ac,#3b4252
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ffffff&color_dots=#161616,#2f2f2f,#5c5c5c,#9a9a9a,#ffffff
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#111111&color_dots=#ebebeb,#cfcfcf,#969696,#525252,#111111
 
       - name: Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4
