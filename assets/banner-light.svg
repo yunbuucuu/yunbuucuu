@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="code is everything - yunbuucuu Monochrome Sketch Banner (Light)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Just code it. - yunbuucuu Monochrome Sketch Banner (Light)">
   <defs>
     <!-- Concrete wall gray gradient (matching the uploaded reference image!) -->
     <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -128,12 +128,12 @@
     </g>
 
     <!-- Hero Title: pitch-black ink with raw white chalk shadow -->
-    <text x="60" y="166" class="hero-title" fill="#FFFFFF" opacity="0.9">code is everything</text>
-    <text x="56" y="162" class="hero-title" fill="#080808">code is everything</text>
+    <text x="60" y="166" class="hero-title" fill="#FFFFFF" opacity="0.9">Just code it.</text>
+    <text x="56" y="162" class="hero-title" fill="#080808">Just code it.</text>
 
     <!-- Sketchy double underline under title -->
-    <path d="M 56 184 L 586 180" stroke="#080808" stroke-width="3" stroke-linecap="round"/>
-    <path d="M 62 190 L 548 188" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.95"/>
+    <path d="M 56 184 L 448 180" stroke="#080808" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 62 190 L 418 188" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.95"/>
 
     <!-- Chinese Subtitle inside crisp readability strip -->
     <rect x="54" y="206" width="562" height="36" rx="2" fill="#0A0A0A" fill-opacity="0.82"/>

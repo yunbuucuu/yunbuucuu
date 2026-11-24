@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="code is everything - yunbuucuu Monochrome Sketch Banner (Dark)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Just code it. - yunbuucuu Monochrome Sketch Banner (Dark)">
   <defs>
     <!-- Concrete charcoal gradient -->
     <linearGradient id="bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -138,11 +138,11 @@
     </g>
 
     <!-- Hero Title with stark monochrome offset shadow -->
-    <text x="60" y="166" class="hero-title" fill="#000000" opacity="0.85">code is everything</text>
-    <text x="56" y="162" class="hero-title" fill="#FFFFFF">code is everything</text>
+    <text x="60" y="166" class="hero-title" fill="#000000" opacity="0.85">Just code it.</text>
+    <text x="56" y="162" class="hero-title" fill="#FFFFFF">Just code it.</text>
 
     <!-- Sketchy double underline under title -->
-    <path d="M 56 184 L 586 180 M 62 190 L 548 188" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 56 184 L 448 180 M 62 190 L 418 188" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.9"/>
 
     <!-- Chinese Subtitle -->
     <text x="58" y="232" class="hero-sub" fill="#E5E5E5">研三学生 · 元学习（Meta-Learning）方向 · 正在寻找工作机会</text>

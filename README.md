@@ -3,7 +3,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-    <img alt="code is everything - yunbuucuu" src="./assets/banner-light.svg" width="100%">
+    <img alt="Just code it. - yunbuucuu" src="./assets/banner-light.svg" width="100%">
   </picture>
 </div>
 
@@ -50,7 +50,7 @@
 
 ## 关于我 · About Me
 
-> *“code is everything”* — 你好，欢迎光临我的主页！
+> *“Just code it.”* — 你好，欢迎光临我的主页！
 
 - ▪ **当前身份**：研三在读学生
 - ▪ **研究方向**：元学习（Meta-Learning）
