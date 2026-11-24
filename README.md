@@ -76,11 +76,43 @@
 
 ## 技术栈 · Tech Stack
 
-| 分类 | 工具与技术 |
-| :--- | :--- |
-| **编程语言** | <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Python-3B4252?style=flat-square&logo=python&logoColor=88C0D0"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC"><img alt="Python" src="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC"></picture> |
-| **深度学习框架** | <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PyTorch-3B4252?style=flat-square&logo=pytorch&logoColor=88C0D0"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/PyTorch-E5E9F0?style=flat-square&logo=pytorch&logoColor=5E81AC"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-E5E9F0?style=flat-square&logo=pytorch&logoColor=5E81AC"></picture> |
-| **研究方向** | <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Meta--Learning-%E5%85%83%E5%AD%A6%E4%B9%A0-5E81AC?style=flat-square&labelColor=2E3440"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Meta--Learning-%E5%85%83%E5%AD%A6%E4%B9%A0-5E81AC?style=flat-square&labelColor=D8DEE9"><img alt="Meta-Learning" src="https://img.shields.io/badge/Meta--Learning-%E5%85%83%E5%AD%A6%E4%B9%A0-5E81AC?style=flat-square&labelColor=D8DEE9"></picture> |
+<table>
+  <tr>
+    <td width="33.3%" valign="top">
+      <strong>编程语言</strong>
+      <br/><br/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Python-3B4252?style=flat-square&logo=python&logoColor=88C0D0">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC">
+        <img alt="Python" src="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC">
+      </picture>
+      <br/><br/>
+      <sub>算法实现、数据处理与日常科研实验主力语言</sub>
+    </td>
+    <td width="33.3%" valign="top">
+      <strong>深度学习框架</strong>
+      <br/><br/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PyTorch-3B4252?style=flat-square&logo=pytorch&logoColor=88C0D0">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/PyTorch-E5E9F0?style=flat-square&logo=pytorch&logoColor=5E81AC">
+        <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-E5E9F0?style=flat-square&logo=pytorch&logoColor=5E81AC">
+      </picture>
+      <br/><br/>
+      <sub>深度学习模型搭建、实验复现与训练调优框架</sub>
+    </td>
+    <td width="33.3%" valign="top">
+      <strong>研究方向</strong>
+      <br/><br/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Meta--Learning-%E5%85%83%E5%AD%A6%E4%B9%A0-5E81AC?style=flat-square&labelColor=2E3440">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Meta--Learning-%E5%85%83%E5%AD%A6%E4%B9%A0-5E81AC?style=flat-square&labelColor=D8DEE9">
+        <img alt="Meta-Learning" src="https://img.shields.io/badge/Meta--Learning-%E5%85%83%E5%AD%A6%E4%B9%A0-5E81AC?style=flat-square&labelColor=D8DEE9">
+      </picture>
+      <br/><br/>
+      <sub>元学习核心理论、方法探索与算法实验研究</sub>
+    </td>
+  </tr>
+</table>
 
 <!-- 常用扩展徽章参考（后续需要时可直接复制粘贴到上表对应行）：
   NumPy:   https://img.shields.io/badge/NumPy-3B4252?style=flat-square&logo=numpy&logoColor=88C0D0
@@ -109,17 +141,37 @@
       <h3><a href="https://github.com/yunbuucuu?tab=repositories">元学习研究与实验代码</a></h3>
       <p>围绕元学习（Meta-Learning）方向的模型复现、实验脚本与研究笔记，后续将逐步整理并开源。</p>
       <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3B4252?style=flat-square&logo=python&logoColor=88C0D0">
-        <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-3B4252?style=flat-square&logo=pytorch&logoColor=88C0D0">
-        <img alt="Status" src="https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E6%95%B4%E7%90%86%E4%B8%AD-5E81AC?style=flat-square&labelColor=2E3440">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Python-3B4252?style=flat-square&logo=python&logoColor=88C0D0">
+          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC">
+          <img alt="Python" src="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC">
+        </picture>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PyTorch-3B4252?style=flat-square&logo=pytorch&logoColor=88C0D0">
+          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/PyTorch-E5E9F0?style=flat-square&logo=pytorch&logoColor=5E81AC">
+          <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-E5E9F0?style=flat-square&logo=pytorch&logoColor=5E81AC">
+        </picture>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E6%95%B4%E7%90%86%E4%B8%AD-5E81AC?style=flat-square&labelColor=2E3440">
+          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E6%95%B4%E7%90%86%E4%B8%AD-5E81AC?style=flat-square&labelColor=D8DEE9">
+          <img alt="进度：整理中" src="https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E6%95%B4%E7%90%86%E4%B8%AD-5E81AC?style=flat-square&labelColor=D8DEE9">
+        </picture>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/yunbuucuu?tab=repositories">工程实践与开源工具</a></h3>
       <p>日常深度学习训练工具链、代码模板与求职实战项目，敬请期待。</p>
       <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3B4252?style=flat-square&logo=python&logoColor=88C0D0">
-        <img alt="Coming Soon" src="https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E7%AD%B9%E5%A4%87%E4%B8%AD-81A1C1?style=flat-square&labelColor=2E3440">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Python-3B4252?style=flat-square&logo=python&logoColor=88C0D0">
+          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC">
+          <img alt="Python" src="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC">
+        </picture>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E7%AD%B9%E5%A4%87%E4%B8%AD-81A1C1?style=flat-square&labelColor=2E3440">
+          <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E7%AD%B9%E5%A4%87%E4%B8%AD-81A1C1?style=flat-square&labelColor=D8DEE9">
+          <img alt="进度：筹备中" src="https://img.shields.io/badge/%E8%BF%9B%E5%BA%A6-%E7%AD%B9%E5%A4%87%E4%B8%AD-81A1C1?style=flat-square&labelColor=D8DEE9">
+        </picture>
       </p>
     </td>
   </tr>
@@ -159,13 +211,13 @@
 
 ## GitHub 数据概览 · Stats
 
-<p align="center">
+<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&bg_color=2e3440&title_color=88c0d0&text_color=d8dee9&icon_color=81a1c1&border_color=434c5e&border_radius=8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&icon_color=81a1c1&border_color=d8dee9&border_radius=8">
-    <img alt="yunbuucuu 的 GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&icon_color=81a1c1&border_color=d8dee9&border_radius=8">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&card_width=760&bg_color=2e3440&title_color=88c0d0&text_color=d8dee9&icon_color=81a1c1&border_color=434c5e&border_radius=8">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&card_width=760&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&icon_color=81a1c1&border_color=d8dee9&border_radius=8">
+    <img alt="yunbuucuu 的 GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&card_width=760&bg_color=eceff4&title_color=5e81ac&text_color=2e3440&icon_color=81a1c1&border_color=d8dee9&border_radius=8" width="100%">
   </picture>
-</p>
+</div>
 
 <div align="center">
   <picture>
