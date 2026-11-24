@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Footer - Nord Light">
+  <defs>
+    <linearGradient id="fbg-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ECEFF4"/>
+      <stop offset="50%" stop-color="#E8EDF4"/>
+      <stop offset="100%" stop-color="#ECEFF4"/>
+    </linearGradient>
+    <linearGradient id="fwave-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#81A1C1" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#88C0D0" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#5E81AC" stop-opacity="0.1"/>
+    </linearGradient>
+    <clipPath id="fclip-light">
+      <rect x="1" y="1" width="1198" height="94" rx="12"/>
+    </clipPath>
+  </defs>
+  <style>
+    .ftext {
+      font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+    .fmono {
+      font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+      font-size: 12px;
+      letter-spacing: 0.6px;
+    }
+  </style>
+  <g clip-path="url(#fclip-light)">
+    <rect width="1200" height="96" fill="url(#fbg-light)"/>
+    <path d="M 0 38 C 280 8, 520 72, 820 32 C 980 12, 1100 44, 1200 28 L 1200 96 L 0 96 Z" fill="url(#fwave-light)"/>
+    <text x="600" y="44" text-anchor="middle" class="ftext" fill="#2E3440">感谢来访 · 欢迎探讨元学习研究与工作机会</text>
+    <text x="600" y="68" text-anchor="middle" class="fmono" fill="#5E81AC">code is everything · @yunbuucuu</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="94" rx="12" fill="none" stroke="#D8DEE9" stroke-width="1.2"/>
+</svg>

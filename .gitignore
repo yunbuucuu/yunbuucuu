@@ -1,0 +1,4 @@
+# 本地预览文件无需推送到 GitHub Profile 仓库
+preview.html
+.DS_Store
+Thumbs.db

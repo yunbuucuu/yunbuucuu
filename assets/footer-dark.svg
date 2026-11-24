@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Footer - Nord Dark">
+  <defs>
+    <linearGradient id="fbg-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E3440"/>
+      <stop offset="50%" stop-color="#323946"/>
+      <stop offset="100%" stop-color="#2E3440"/>
+    </linearGradient>
+    <linearGradient id="fwave-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5E81AC" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#88C0D0" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#8FBCBB" stop-opacity="0.1"/>
+    </linearGradient>
+    <clipPath id="fclip-dark">
+      <rect x="1" y="1" width="1198" height="94" rx="12"/>
+    </clipPath>
+  </defs>
+  <style>
+    .ftext {
+      font-family: 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+    .fmono {
+      font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+      font-size: 12px;
+      letter-spacing: 0.6px;
+    }
+  </style>
+  <g clip-path="url(#fclip-dark)">
+    <rect width="1200" height="96" fill="url(#fbg-dark)"/>
+    <path d="M 0 38 C 280 8, 520 72, 820 32 C 980 12, 1100 44, 1200 28 L 1200 96 L 0 96 Z" fill="url(#fwave-dark)"/>
+    <text x="600" y="44" text-anchor="middle" class="ftext" fill="#E5E9F0">感谢来访 · 欢迎探讨元学习研究与工作机会</text>
+    <text x="600" y="68" text-anchor="middle" class="fmono" fill="#88C0D0">code is everything · @yunbuucuu</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="94" rx="12" fill="none" stroke="#434C5E" stroke-width="1.2"/>
+</svg>
