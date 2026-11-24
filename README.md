@@ -74,63 +74,6 @@
   </picture>
 </div>
 
-## 技术栈 · Tech Stack
-
-<table>
-  <tr>
-    <td width="33.3%" valign="top">
-      <strong>编程语言</strong>
-      <br/><br/>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Python-3B4252?style=flat-square&logo=python&logoColor=88C0D0">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC">
-        <img alt="Python" src="https://img.shields.io/badge/Python-E5E9F0?style=flat-square&logo=python&logoColor=5E81AC">
-      </picture>
-      <br/><br/>
-      <sub>算法实现、数据处理与日常科研实验主力语言</sub>
-    </td>
-    <td width="33.3%" valign="top">
-      <strong>深度学习框架</strong>
-      <br/><br/>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PyTorch-3B4252?style=flat-square&logo=pytorch&logoColor=88C0D0">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/PyTorch-E5E9F0?style=flat-square&logo=pytorch&logoColor=5E81AC">
-        <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-E5E9F0?style=flat-square&logo=pytorch&logoColor=5E81AC">
-      </picture>
-      <br/><br/>
-      <sub>深度学习模型搭建、实验复现与训练调优框架</sub>
-    </td>
-    <td width="33.3%" valign="top">
-      <strong>研究方向</strong>
-      <br/><br/>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Meta--Learning-%E5%85%83%E5%AD%A6%E4%B9%A0-5E81AC?style=flat-square&labelColor=2E3440">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Meta--Learning-%E5%85%83%E5%AD%A6%E4%B9%A0-5E81AC?style=flat-square&labelColor=D8DEE9">
-        <img alt="Meta-Learning" src="https://img.shields.io/badge/Meta--Learning-%E5%85%83%E5%AD%A6%E4%B9%A0-5E81AC?style=flat-square&labelColor=D8DEE9">
-      </picture>
-      <br/><br/>
-      <sub>元学习核心理论、方法探索与算法实验研究</sub>
-    </td>
-  </tr>
-</table>
-
-<!-- 常用扩展徽章参考（后续需要时可直接复制粘贴到上表对应行）：
-  NumPy:   https://img.shields.io/badge/NumPy-3B4252?style=flat-square&logo=numpy&logoColor=88C0D0
-  CUDA:    https://img.shields.io/badge/CUDA-3B4252?style=flat-square&logo=nvidia&logoColor=88C0D0
-  Linux:   https://img.shields.io/badge/Linux-3B4252?style=flat-square&logo=linux&logoColor=88C0D0
-  Git:     https://img.shields.io/badge/Git-3B4252?style=flat-square&logo=git&logoColor=88C0D0
-  Docker:  https://img.shields.io/badge/Docker-3B4252?style=flat-square&logo=docker&logoColor=88C0D0
-  LaTeX:   https://img.shields.io/badge/LaTeX-3B4252?style=flat-square&logo=latex&logoColor=88C0D0
--->
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg">
-    <img alt="" src="./assets/divider-light.svg" width="100%">
-  </picture>
-</div>
-
 ## 精选项目 · Featured Projects
 
 > 项目仓库正在整理与开源筹备中，欢迎持续关注或查看我的 [全部仓库](https://github.com/yunbuucuu?tab=repositories)。
