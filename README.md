@@ -58,6 +58,14 @@
 - ▪ **目前状态**：正在寻找工作机会，欢迎交流与内推
 - ▪ **联系邮箱**：[238471007@qq.com](mailto:238471007@qq.com)
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-cat-1-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-cat-1-light.svg">
+    <img alt="黑猫伸爪拍毛线球分割线" src="./assets/divider-cat-1-light.svg" width="100%">
+  </picture>
+</div>
+
 ## 精选项目 · Featured Projects
 
 > 项目仓库正在整理与开源筹备中，欢迎持续关注或查看我的 [全部仓库](https://github.com/yunbuucuu?tab=repositories)。
@@ -128,6 +136,14 @@
 </table>
 -->
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-cat-2-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-cat-2-light.svg">
+    <img alt="黑猫弓背轻扑毛线球分割线" src="./assets/divider-cat-2-light.svg" width="100%">
+  </picture>
+</div>
+
 ## GitHub 数据概览 · Stats
 
 <div align="center">
@@ -135,6 +151,14 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&card_width=760&bg_color=141414&title_color=ffffff&text_color=d4d4d4&icon_color=ffffff&border_color=3a3a3a&ring_color=ffffff&border_radius=4">
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&card_width=760&bg_color=ececec&title_color=111111&text_color=262626&icon_color=111111&border_color=111111&ring_color=111111&border_radius=4">
     <img alt="yunbuucuu 的 GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=yunbuucuu&show_icons=true&locale=cn&card_width=760&bg_color=ececec&title_color=111111&text_color=262626&icon_color=111111&border_color=111111&ring_color=111111&border_radius=4" width="100%">
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-cat-3-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-cat-3-light.svg">
+    <img alt="黑猫趴地看毛线球分割线" src="./assets/divider-cat-3-light.svg" width="100%">
   </picture>
 </div>
 
